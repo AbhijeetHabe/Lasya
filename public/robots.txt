@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /Lasya/cart
+Disallow: /Lasya/checkout
+Disallow: /Lasya/wishlist
+Disallow: /Lasya/search
+Sitemap: https://abhijeethabe.github.io/Lasya/sitemap.xml

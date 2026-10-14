@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <title>LASYA</title>
+    <script>
+      (function () {
+        var base = "/Lasya/";
+        try {
+          sessionStorage.setItem(
+            "lasya-gh-pages-redirect",
+            location.pathname + location.search + location.hash,
+          );
+        } catch (error) {}
+        location.replace(base);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Returning to LASYA…</p>
+  </body>
+</html>
